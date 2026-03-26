@@ -10,7 +10,7 @@ En este contexto, el proyecto busca analizar, mediante el uso de bases de datos,
 Los géneros dramáticos dominan las nominaciones a los Premios Óscar, mientras que los géneros de acción, aventura y fantasía predominan en las películas más taquilleras, evidenciando una brecha entre prestigio crítico y éxito comercial.
 
 ## Antecedentes del tema
-Distintos estudios y análisis periodísticos han abordado la relación entre los Premios Oscar y los géneros cinematográficos. Se ha identificado que el género drama es el más frecuente tanto en nominaciones como en películas ganadoras, muchas veces acompañado de elementos históricos o biográficos. Estas películas suelen abordar temáticas sociales, políticas o humanas profundas, lo que las posiciona como obras de “prestigio”.
+Distintos estudios y análisis periodísticos han abordado la relación entre los Premios óscar y los géneros cinematográficos. Se ha identificado que el género drama es el más frecuente tanto en nominaciones como en películas ganadoras, muchas veces acompañado de elementos históricos o biográficos. Estas películas suelen abordar temáticas sociales, políticas o humanas profundas, lo que las posiciona como obras de “prestigio”.
 
 Por otro lado, investigaciones sobre taquilla han demostrado que las películas más exitosas comercialmente pertenecen mayoritariamente a géneros como acción, aventura, ciencia ficción y fantasía. Ejemplos icónicos incluyen franquicias y producciones de gran escala que apelan a audiencias globales, priorizando el espectáculo visual y la masividad.
 
