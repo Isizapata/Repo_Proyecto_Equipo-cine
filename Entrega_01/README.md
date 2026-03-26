@@ -71,6 +71,7 @@ Todas son confiables pero van a ser comprobados de igual manera
 * Sumado a ello, como expusimos anteriormente, nos gustaría ambientar nuestra página web dentro del living de un cinéfilo cualquiera. Podemos incluir colores sobrios, palomitas, recuadros y símbolos que sitúen al usuario en nuestro proyecto. Incluso podríamos contar la historia desde un televisor. Esto porque creemos que mientras más inmerso se vea este en nuestra historia, más eficacia tendrá nuestro storytelling.
 
 ![alt text](<../alvaro 2.jpeg>)
+![alt text](<../WhatsApp Image 2026-03-26 at 17.55.43.jpeg>)
 
 **Lo novedoso es:** 
 * Cruce de datos longitudinal (1950–2026)
