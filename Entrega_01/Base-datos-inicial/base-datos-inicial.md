@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## Base de datos inicial 26/03/2026
 Nuestra base de datos será construida a partir de los datos recogidos de los siguientes sitios web:
 
@@ -13,4 +14,6 @@ En el caso de The New York Times ( https://www.nytimes.com/ ) y Rolling Stone ( 
 Gracias IMDb ( https://www.imdb.com/?ref_=tt_nv_home ), de IMDb.com, Inc. (subsidiario de Amazon), nos brindará su enorme base de datos cinematográfica: las películas, sus años y los principales géneros a los que pertenecen. Incluyen, además, rankings de películas nominadas y ganadoras al Óscar, por lo que nos servirá para comprobar tanto el año como el Óscar de una película.
 
 Box Office ( https://www.boxofficemojo.com/ ), de IMDb.com, Inc.(subsidiario de Amazon), propicia el seguimiento de ingresos de taquilla a nivel mundial de las películas, además de también incluir sus presupuestos.
+
+FilmAffinity ( https://www.filmaffinity.com/es/main.html ) es una web de votación y recomendación de películas y series creada en el año 2002 por Pablo Kurt y Daniel Nicolás. Contiene las listas de todos los ganadores y nominados de todos los Óscars de la historia, además de la recaudación internacional en taquillas de las películas.
 
