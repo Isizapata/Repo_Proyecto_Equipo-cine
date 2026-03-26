@@ -1,4 +1,4 @@
-## Tabla  de las  películas nominadas a los Premios Oscars por año
+## Tabla  de las  películas nominadas a los Premios Oscars por año- Isidora Zapata
 |ID| PELÍCULA| AÑO| GÉNERO|
 |---|-|--|-|
 |1| | | |
