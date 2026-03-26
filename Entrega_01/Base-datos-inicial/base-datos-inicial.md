@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ## Base de datos inicial 26/03/2026
 Nuestra base de datos será construida a partir de los datos recogidos de los siguientes sitios web:
 
