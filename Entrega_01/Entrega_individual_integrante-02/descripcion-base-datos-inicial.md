@@ -1,4 +1,4 @@
-## Base de datos género de las películas ganadoras 
+## Base de datos género de las películas ganadoras- Olivia López
 
 En esta tabla se categorizará el género cinematográfico de la película ganadora al Óscar de Mejor Película desde el año 1950 hasta el 2026 (primera categoría de la investigación). Se incluirán cuatro columnas: "ID", "Año", "Película ganadora" y "Género".
 
