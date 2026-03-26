@@ -1,5 +1,6 @@
 ## Base de datos inicial 26/03/2026
-Nuestra base de datos será construida a partir de los datos recogidos de los siguientes sitios web:
+Nuestra base de datos será construida a partir de dos bases más grandes, primero consideraremos
+los datos recogidos de los siguientes sitios web:
 
 * Medios de comunicación como The New York Times y Rolling Stone.
 * IMDb
