@@ -65,10 +65,11 @@ Todas son confiables pero van a ser comprobados de igual manera
 
 * Uno de los elementos gráficos a través de los cuales nos gustaría plasmar nuestro proyecto es este gráfico de líneas donde el recorrido que esta realiza simboliza una frecuencia. En nuestro caso, podríamos adaptarla y transformarla en dos: una donde las líneas y sus recorridos representen la cantidad de premios que obtuvieron los géneros durante las diferentes décadas. Otra, que plasme el éxito en taquilla que esos mismos géneros tuvieron durante los mismos períodos de tiempo. Posteriormente podemos situar un gráfico sobre otro con el fin de hacer un contraste visual entre premios y taquilla. Este tipo de gráficos introduce una manera innovadora sobre cómo narrar.
 
-FOTO ALVARO
+![alt text](<../alvaro 1.jpeg>)
+
 * Sumado a ello, como expusimos anteriormente, nos gustaría ambientar nuestra página web dentro del living de un cinéfilo cualquiera. Podemos incluir colores sobrios, palomitas, recuadros y símbolos que sitúen al usuario en nuestro proyecto. Incluso podríamos contar la historia desde un televisor. Esto porque creemos que mientras más inmerso se vea este en nuestra historia, más eficacia tendrá nuestro storytelling.
 
-FOTO ALVARO
+![alt text](<../alvaro 2.jpeg>)
 
 **Lo novedoso es:** 
 * Cruce de datos longitudinal (1950–2026)
