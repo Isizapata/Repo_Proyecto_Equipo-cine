@@ -1,5 +1,5 @@
 ## Base de datos películas nominadas a los Premios Oscar
-En primera instancia la tabla será una base de datos que facilite el acceso a las peliculas nominadas en los Premios Oscar de los años 1950 al año 2026, consideramos usar un ID para facilitar la búsqueda por año, considerando que el 1950 sera el 1, el 1952 sera el 2 y asi respectivamente.
+En primera instancia la tabla será una base de datos que facilite el acceso a las peliculas nominadas en los Premios Oscar de los años 1950 al año 2026, consideramos usar un ID para facilitar la búsqueda por año, considerando que el 1950 sera el 1, el 1952 sera el 2 y asi respectivamente. La tabla contiene columna para colocar el nombre de las películas nominadas, el año y género.
 
 Buscamos ordenar los nombres de las películas nominadas y sus géneros dominantes para poder calcular el género que domino el año, independiente de el género de la película ganadora (primera categoría de nuestra investigación). 
 
