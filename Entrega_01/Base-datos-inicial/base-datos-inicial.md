@@ -16,3 +16,4 @@ Box Office ( https://www.boxofficemojo.com/ ), de IMDb.com, Inc.(subsidiario de 
 
 FilmAffinity ( https://www.filmaffinity.com/es/main.html ) es una web de votación y recomendación de películas y series creada en el año 2002 por Pablo Kurt y Daniel Nicolás. Contiene las listas de todos los ganadores y nominados de todos los Óscars de la historia, además de la recaudación internacional en taquillas de las películas.
 
+La metodología mediante la cual levantamos los datos es OSINT. Esto debido a que decidimos usar información pública, taquilla y nominaciones a los Oscar, para de esta forma verificar, conectar y contrastar los datos.
