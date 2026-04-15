@@ -4,8 +4,7 @@ Los datos tales como, años, películas nominadas a los Oscars, género, subgén
 * https://www.filmaffinity.com/es/awards3.php?award_id=academy_awards&decade=2020
 * https://www.boxofficemojo.com/?ref_=bo_nb_di_mojologo
 ## Metodología de la construcción de la base
-
-
+OSINT
 ## Alcance de los datos
 En un inicio nuestra investigación contemplaría de los años 1950 al 2025. Sin embargo, en la tabla de taquilla la información de recaudación que encontramos llega solo a 1978, por lo que acotamos el alcance de la investigación a solo 1978, de lo contrario no podríamos cruzar datos de los Premios Oscar con taquilla después de 1978. En caso de encontrar los datos más adelante existe el avance de la tabla hasta el año 1950. 
 ## Característica de los datos
