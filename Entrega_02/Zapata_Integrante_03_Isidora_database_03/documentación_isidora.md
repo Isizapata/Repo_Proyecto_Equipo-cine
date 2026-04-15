@@ -5,7 +5,7 @@ Sin embargo, con los comentarios de la entrega 1 nos dimos cuenta que ampliar la
 Con estas primeras dimensiones se nos hizo facil ordenarlas. 
 
 El problema ocurrió cuando comenzamos a ordenar los datos de recaudaciones en la tabla, nos dimos cuenta que en la tabla de taquilla la información de recaudación solo existe hasta el 1978, es por esto que decidimos en conjunto con las profesoras acortar por ahora el tiempo de búsqueda hasta el 1978, de esta manera, los datos puede cruzarse de buena forma con la base de datos de taquilla.
-Consideramos para la tabla de los Premios Oscar, todos las películas nominadas en la categoría "Mejor Película" por año, es por esto que en algunos años son más películas que en otros. 
+Consideramos para la tabla de los Premios Oscar, todos las películas nominadas en la categoría "Mejor Película" por año, es por esto que en algunos años son más películas que en otros. Además, nos dimos cuenta que el año de premiación de los Premios Oscar ocurren al año siguiente de su estreno, por lo que al ordenas las películas contemplamos su año de estreno y no de premiación, para poder así cruzar de buena manera los datos con la base de datos de taquilla, teniendo en consideración que el premio se recibe al año siguiente.  
 
 Para comenzar a ordenar los datos en primera instancia ordenamos los años y los nombres de las películas nominadas por año, esto siguiendo la información de Filmaffiinity. Con eso resuelto comenzamos desde la misma página a ver los géneros y subgéneros. En primera instancia pasamos a mano los nombres de las películas, géneros y subgéneros. Mas tarde, recordamos el uso de csv en excel y el obtener datos para rellar el excel, es por esto que con ayuda de ChatGPT hicimos lo siguiente
 
