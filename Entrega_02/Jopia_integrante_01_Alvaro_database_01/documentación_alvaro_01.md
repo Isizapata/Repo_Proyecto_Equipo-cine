@@ -21,6 +21,7 @@ Con los géneros y subgéneros ya listos, pasamos a completar las dimensiones de
 6.	Con la tabla de datos lista, copiamos y pegamos las celdas correspondientes.
    
 Las fuentes utilizadas para la construcción de esta base de datos fueron:
+
 •	https://www.filmaffinity.com/es/awards3.php?award_id=academy_awards&decade=2020
 •	https://www.boxofficemojo.com/?ref_=bo_nb_di_mojologo
 •	https://chatgpt.com/
