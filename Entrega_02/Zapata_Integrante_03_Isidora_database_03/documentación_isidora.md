@@ -18,7 +18,9 @@ Para comenzar a ordenar los datos en primera instancia ordenamos los años y los
 Las fuentes que utilizamos para la construcción de esta base de datos fueron:
 
 •	https://www.filmaffinity.com/es/awards3.php?award_id=academy_awards&decade=2020
+
 •	https://www.boxofficemojo.com/?ref_=bo_nb_di_mojologo
+
 •	https://chatgpt.com/
 
 Con la base de datos limpia, queremos responder preguntas como:
