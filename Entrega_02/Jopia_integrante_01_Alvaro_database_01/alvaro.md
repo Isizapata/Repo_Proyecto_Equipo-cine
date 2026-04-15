@@ -8,7 +8,9 @@ https://www.filmaffinity.com/es/awards3.php?award_id=academy_awards&decade=2020
 
 https://www.boxofficemojo.com/?ref_=bo_nb_di_mojologo
 
-## Metodología de la construcción de la base
+### Metodología de la construcción de la base
+
+OSINT
 
 ### Alcance de los datos
 Debido a que los datos respecto a la recaudación doméstica e internacional sólo son confiables hasta 1978, decidimos acotar nuestra investigación hasta aquel año. De todos modos, no nos cerramos a que, en un futuro, en caso de dar con una base de datos certera respecto a la recaudación de las películas pertenecientes al tramo 1950-1978, podamos incluirlas dentro de nuestro análisis. Finalmente, es oportuno recalcar que tuvimos que pasar las cantidades de recaudación de comas a puntos para así no estropear el CSV.
