@@ -1,4 +1,4 @@
-### Ficha técnica y diccionario de datos 
+### Ficha técnica y diccionario de datos, Isidora Zapata e Olivia López
 ## Fuente de los datos
 Los datos tales como, años, películas nominadas a los Oscars, género, subgénero, director, actor principal, productora, recaudaciones domésticas e internacionales y la película ganadora de la categoría Mejor Película fueron obtenidos de las páginas Filmaffinity y Box OficceMojo.
 * https://www.filmaffinity.com/es/awards3.php?award_id=academy_awards&decade=2020
