@@ -11,7 +11,7 @@ Para hacerlo aún más entendible le pedí a los codigos que las películas gana
 
 Luego le pedí con el código "Tooltip# la información detallada de cada película al pasar el ratón, considerando el nombre de la película, el año de estreno, el director y si fue nominada o ganadora de la categoría "Mejor Película" 
 
-Cuando generó el gráfico en un principio era complicado de leer, ya que no tenía lineas horizontales que guiara la vista y al ser solo puntos no se entendía de que director era cada película y se veía así: 
+Cuando generó el gráfico en un principio era complicado de leer, ya que no tenía lineas horizontales que guiara la vista y al ser solo puntos no se entendía de que director era cada película y se veía así (perdón lo gigante de la foto no supe como achicarla): 
 
 
 ![alt text](<../../Captura de pantalla 2026-05-10 221822.png>)
