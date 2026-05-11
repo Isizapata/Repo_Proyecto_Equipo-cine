@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-
-
-=======
 ## Ficha técnica de la base de datos Isidora Zapata
 ### Características generales
 - Formato: CSV
@@ -26,4 +22,4 @@
 
 ### Observaciones sobre la base de datos
 En la sección de género y subgénero hubo que hacer una limpieza con el nombre del género ya que se creaban más variables cuando habian palabras con y sin mayúscula, con o sin tildes. 
->>>>>>> c4661315519656322dd08deb8739da58e504c71e
+
