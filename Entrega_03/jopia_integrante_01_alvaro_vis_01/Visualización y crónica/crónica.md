@@ -1,0 +1,13 @@
+# Cuando el cine dejó de hablarle a adultos
+
+Durante gran parte del siglo XX, el cine comercial mundial todavía permitía que películas adultas dominaran la cultura y también la taquilla. Thrillers, dramas, historias de guerra o relatos psicológicos podían transformarse en fenómenos masivos sin depender de un universo cinematográfico compartido. Hollywood era una industria obsesionada con el espectáculo, sí, pero todavía existía espacio para películas incómodas, violentas o profundamente dialogadas dentro del centro del mercado. Cómo olvidar algunos clásicos como Seven con Brad Pitt o Good Morning Vietnam con Robin Williams.
+
+Algo comenzó a cambiar hacia finales de los años noventa y terminó de consolidarse durante el siglo XXI. La taquilla dejó de estar repartida entre distintos tipos de cine y empezó a concentrarse progresivamente en películas clasificadas PG-13: producciones capaces de convocar adolescentes, adultos y familias al mismo tiempo. Lo suficientemente intenso para parecer “adulto”, pero lo suficientemente moderado para no limitar audiencias.
+
+El éxito de sagas como Star Wars y, décadas después, el dominio absoluto del Iron Man como punto de partida del Universo Cinematográfico de Marvel parecen haber consolidado una nueva lógica en la industria: personajes reconocibles, narrativas continuas y clasificación PG-13 como estándar comercial.
+
+El gráfico muestra cómo esa transformación terminó desplazando progresivamente al cine clasificado R, históricamente asociado a relatos más violentos, adultos o psicológicamente densos. Sin embargo, el cine adulto no desapareció por completo. Más bien se convirtió en una rareza dentro de un sistema dominado por franquicias familiares y/o blockbusters globales. Deadpool, Joker u Oppenheimer demostraron que todavía existe apetito por propuestas más arriesgadas, aunque su éxito suele percibirse como excepción y no como regla estructural de la industria.
+
+En paralelo, las clasificaciones más infantiles también comenzaron a desaparecer lentamente de la cima de la taquilla. El cine G perdió espacio frente a un modelo híbrido donde casi todo parece diseñado para públicos amplios, pero con suficiente intensidad visual para atraer adolescentes y adultos jóvenes.
+
+La evolución de las clasificaciones etarias revela así algo más profundo que un simple cambio estadístico. Habla de cómo Hollywood transformó su relación con el público y de cómo el blockbuster moderno pasó a convertirse en un producto global. En ese tránsito, el cine comercial ganó escala, alcance y rentabilidad. Pero quizás también perdió parte de la diversidad narrativa que alguna vez lo definió.
