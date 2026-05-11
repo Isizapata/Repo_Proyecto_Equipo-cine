@@ -13,6 +13,8 @@ Luego le pedí con el código "Tooltip# la información detallada de cada pelíc
 
 Cuando generó el gráfico en un principio era complicado de leer, ya que no tenía lineas horizontales que guiara la vista y al ser solo puntos no se entendía de que director era cada película y se veía así: 
 
+![alt text](<../../Captura de pantalla 2026-05-10 221822.png>)
+
 Es por esto que le pedí a gemini que me diera un código para poder colocar líneas horizontales pero no supe cómo colocarlo bien y en clases le pedí ayuda a la profe Trini para pegar el código de manera correcta y quedó más mucho más fácil de entender.
 
 ### Base de datos (CSV) que utilizaron, cómo la procesan hasta dejarla lista para usar en la visualización que quieren hacer y por qué la seleccionaron.
@@ -29,4 +31,4 @@ Por esto existen dos bases de datos al inicio
 -  ¿Son más mujeres o hombres los directores con más películas nominadas?
 -  Hipotético: ¿En qué años Martin Scorsese tuvo más películas nominadas?
 -  ¿Qué director dejó de ser nominado?
->>>>>>> c4661315519656322dd08deb8739da58e504c71e
+
