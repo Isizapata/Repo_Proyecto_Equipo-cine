@@ -20,7 +20,7 @@ Cuando generó el gráfico en un principio era complicado de leer, ya que no ten
 Es por esto que le pedí a gemini que me diera un código para poder colocar líneas horizontales pero no supe cómo colocarlo bien y en clases le pedí ayuda a la profe Trini para pegar el código de manera correcta y quedó más mucho más fácil de entender.
 
 ### Base de datos (CSV) que utilizaron, cómo la procesan hasta dejarla lista para usar en la visualización que quieren hacer y por qué la seleccionaron.
-Trabajé con la base de datos de la entrega 2, "database premios excel" para filtrar años, películas y directores. La elegí porque es la más completa de los Premios Oscars y solo tuve que indicarle a los códigos que leyeran esas dimensiones para poder generar el gráfico con la función "df_filtrado". Sin embargo, quise hacer un segundo gráfico para probar otras ideas con género y subgénero. 
+Trabajé con la base de datos de la entrega 2, "database premios excel" para filtrar años, películas, directores y el lugar, osea si gano o estuvo nominada. La elegí porque es la más completa de los Premios Oscars y solo tuve que indicarle a los códigos que leyeran esas dimensiones para poder generar el gráfico con la función "df_filtrado". Sin embargo, quise hacer un segundo gráfico para probar otras ideas con género y subgénero. 
 
 Fue aquí donde me di cuenta al buscar un gráfico de barras en Altair que la base de datos original la iba a tener que limpiar, ya que habían errores de tipeos que al momento de pasarlos a gráfico generaba un comedia y un Comedia, diferenciándose solo por la mayúscula, lo mismo con los tildes Fantasia y Fantasía eran dos categorías distintas. 
 
