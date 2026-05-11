@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    #vis.vega-embed {
+      width: 100%;
+      display: flex;
+    }
+
+    #vis.vega-embed details,
+    #vis.vega-embed details summary {
+      position: relative;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@5.20.1"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 300, "continuousHeight": 300}}, "data": {"name": "data-3b61d3fea7d07091ce49a94f8f792fc2"}, "mark": {"type": "bar"}, "encoding": {"color": {"field": "G\u00c9NERO", "type": "nominal"}, "tooltip": [{"field": "G\u00c9NERO", "type": "nominal"}, {"field": "Cantidad", "type": "quantitative"}], "x": {"field": "G\u00c9NERO", "type": "nominal"}, "y": {"field": "Cantidad", "type": "quantitative"}}, "title": "Cantidad de pel\u00edculas por g\u00e9nero", "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json", "datasets": {"data-3b61d3fea7d07091ce49a94f8f792fc2": [{"G\u00c9NERO": "Drama", "Cantidad": 207}, {"G\u00c9NERO": "Comedia", "Cantidad": 35}, {"G\u00c9NERO": "Ciencia ficci\u00f3n", "Cantidad": 13}, {"G\u00c9NERO": "Thriller", "Cantidad": 8}, {"G\u00c9NERO": "Fantas\u00eda", "Cantidad": 7}, {"G\u00c9NERO": "Acci\u00f3n", "Cantidad": 6}, {"G\u00c9NERO": "B\u00e9lico", "Cantidad": 6}, {"G\u00c9NERO": "Musical", "Cantidad": 5}, {"G\u00c9NERO": "Romance", "Cantidad": 5}, {"G\u00c9NERO": "Western", "Cantidad": 4}, {"G\u00c9NERO": "Terror ", "Cantidad": 3}, {"G\u00c9NERO": "Animaci\u00f3n", "Cantidad": 3}, {"G\u00c9NERO": "Aventura ", "Cantidad": 3}, {"G\u00c9NERO": "Crimen", "Cantidad": 3}, {"G\u00c9NERO": "Terror", "Cantidad": 2}, {"G\u00c9NERO": "Comedia ", "Cantidad": 1}, {"G\u00c9NERO": "Hist\u00f3rico", "Cantidad": 1}, {"G\u00c9NERO": "Cine negro", "Cantidad": 1}, {"G\u00c9NERO": "\u00c9pico", "Cantidad": 1}, {"G\u00c9NERO": "Familiar", "Cantidad": 1}, {"G\u00c9NERO": "Aventura", "Cantidad": 1}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>

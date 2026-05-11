@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    #vis.vega-embed {
+      width: 100%;
+      display: flex;
+    }
+
+    #vis.vega-embed details,
+    #vis.vega-embed details summary {
+      position: relative;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@5.20.1"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 300, "continuousHeight": 300}}, "data": {"name": "data-1d9e74527c1dbf4c902d2c9b60ad7961"}, "mark": {"type": "bar"}, "encoding": {"color": {"field": "Resultado", "title": "Resultado", "type": "nominal"}, "tooltip": [{"field": "G\u00c9NERO", "type": "nominal"}, {"field": "Resultado", "type": "nominal"}, {"field": "Cantidad", "type": "quantitative"}], "x": {"field": "G\u00c9NERO", "sort": "-y", "title": "G\u00e9nero", "type": "nominal"}, "xOffset": {"field": "Resultado", "type": "nominal"}, "y": {"field": "Cantidad", "title": "Cantidad", "type": "quantitative"}}, "height": 400, "title": "Nominadas vs Ganadoras por G\u00e9nero (Top 10)", "width": 600, "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json", "datasets": {"data-1d9e74527c1dbf4c902d2c9b60ad7961": [{"G\u00c9NERO": "Drama", "Resultado": "Ganadora", "Cantidad": 31}, {"G\u00c9NERO": "Comedia", "Resultado": "Ganadora", "Cantidad": 4}, {"G\u00c9NERO": "Fantas\u00eda", "Resultado": "Ganadora", "Cantidad": 2}, {"G\u00c9NERO": "Romance", "Resultado": "Ganadora", "Cantidad": 2}, {"G\u00c9NERO": "Acci\u00f3n", "Resultado": "Ganadora", "Cantidad": 2}, {"G\u00c9NERO": "Thriller", "Resultado": "Ganadora", "Cantidad": 2}, {"G\u00c9NERO": "Western", "Resultado": "Ganadora", "Cantidad": 2}, {"G\u00c9NERO": "Musical", "Resultado": "Ganadora", "Cantidad": 1}, {"G\u00c9NERO": "B\u00e9lico", "Resultado": "Ganadora", "Cantidad": 1}, {"G\u00c9NERO": "\u00c9pico", "Resultado": "Ganadora", "Cantidad": 1}, {"G\u00c9NERO": "Drama", "Resultado": "Nominada", "Cantidad": 176}, {"G\u00c9NERO": "Comedia", "Resultado": "Nominada", "Cantidad": 31}, {"G\u00c9NERO": "Fantas\u00eda", "Resultado": "Nominada", "Cantidad": 5}, {"G\u00c9NERO": "Romance", "Resultado": "Nominada", "Cantidad": 3}, {"G\u00c9NERO": "Acci\u00f3n", "Resultado": "Nominada", "Cantidad": 4}, {"G\u00c9NERO": "Thriller", "Resultado": "Nominada", "Cantidad": 6}, {"G\u00c9NERO": "Western", "Resultado": "Nominada", "Cantidad": 2}, {"G\u00c9NERO": "Musical", "Resultado": "Nominada", "Cantidad": 4}, {"G\u00c9NERO": "B\u00e9lico", "Resultado": "Nominada", "Cantidad": 5}, {"G\u00c9NERO": "\u00c9pico", "Resultado": "Nominada", "Cantidad": 0}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>
