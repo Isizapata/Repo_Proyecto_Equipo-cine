@@ -1,5 +1,5 @@
 ## Ficha técnica de la base de datos Isidora Zapata
-### Caracteristicas generales
+### Características generales
 - Formato: CSV
 - Unidad de análisis: Películas
 - Cantidad de registros 317 filas por 10 columnas
@@ -17,7 +17,7 @@
 | Actor principal | Protagonista/actor principal |
 | Productor | Productora de grabación de la película |
 |Recaudación doméstica| Dinero recaudado en su país|
-|Recaudación internacion| Dinero recaudado a nivel mundial|
+|Recaudación internacional| Dinero recaudado a nivel mundial|
 |Lugar| Si fue nominada o ganadora|
 
 ### Observaciones sobre la base de datos
