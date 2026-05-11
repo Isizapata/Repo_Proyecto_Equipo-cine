@@ -13,7 +13,9 @@ Luego le pedí con el código "Tooltip# la información detallada de cada pelíc
 
 Cuando generó el gráfico en un principio era complicado de leer, ya que no tenía lineas horizontales que guiara la vista y al ser solo puntos no se entendía de que director era cada película y se veía así: 
 
+
 ![alt text](<../../Captura de pantalla 2026-05-10 221822.png>)
+=======
 
 Es por esto que le pedí a gemini que me diera un código para poder colocar líneas horizontales pero no supe cómo colocarlo bien y en clases le pedí ayuda a la profe Trini para pegar el código de manera correcta y quedó más mucho más fácil de entender.
 
