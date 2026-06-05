@@ -9,3 +9,5 @@ Creamos una carpeta en Pinterest, donde seleccionamos imágenes y las fuimos rec
 ## Botones
 Elementos disponibles que fuimos cambiando colores y agregando otro por encima, etc. en Canvas.
 
+## Logo
+Diseñamos nuestro propio logo buscando imágenes, seleccionando una parte y cortándola, y juntándolas entre sí.
