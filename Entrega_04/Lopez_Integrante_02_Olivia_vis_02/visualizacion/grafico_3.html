@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    #vis.vega-embed {
+      width: 100%;
+      display: flex;
+    }
+
+    #vis.vega-embed details,
+    #vis.vega-embed details summary {
+      position: relative;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@5.20.1"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 300, "continuousHeight": 300}}, "data": {"name": "data-1b3c284403e17e596a1c9d3e2859a28c"}, "mark": {"type": "area"}, "encoding": {"color": {"field": "G\u00e9nero", "title": "G\u00e9nero", "type": "nominal"}, "tooltip": [{"field": "D\u00e9cada", "type": "ordinal"}, {"field": "G\u00e9nero", "type": "nominal"}, {"field": "Cantidad", "type": "quantitative"}], "x": {"field": "D\u00e9cada", "title": "D\u00e9cada", "type": "ordinal"}, "y": {"field": "Cantidad", "title": "Cantidad de pel\u00edculas ganadoras", "type": "quantitative"}}, "height": 450, "title": "Evoluci\u00f3n de los g\u00e9neros ganadores del \u00d3scar a Mejor Pel\u00edcula por d\u00e9cada", "width": 700, "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json", "datasets": {"data-1b3c284403e17e596a1c9d3e2859a28c": [{"D\u00e9cada": 2000, "G\u00e9nero": "Acci\u00f3n", "Cantidad": 1}, {"D\u00e9cada": 2020, "G\u00e9nero": "Acci\u00f3n", "Cantidad": 1}, {"D\u00e9cada": 1980, "G\u00e9nero": "B\u00e9lico", "Cantidad": 1}, {"D\u00e9cada": 1980, "G\u00e9nero": "Ciencia ficci\u00f3n", "Cantidad": 1}, {"D\u00e9cada": 1970, "G\u00e9nero": "Comedia", "Cantidad": 1}, {"D\u00e9cada": 1990, "G\u00e9nero": "Comedia", "Cantidad": 1}, {"D\u00e9cada": 2010, "G\u00e9nero": "Comedia", "Cantidad": 2}, {"D\u00e9cada": 1970, "G\u00e9nero": "Drama", "Cantidad": 2}, {"D\u00e9cada": 1980, "G\u00e9nero": "Drama", "Cantidad": 8}, {"D\u00e9cada": 1990, "G\u00e9nero": "Drama", "Cantidad": 3}, {"D\u00e9cada": 2000, "G\u00e9nero": "Drama", "Cantidad": 7}, {"D\u00e9cada": 2010, "G\u00e9nero": "Drama", "Cantidad": 7}, {"D\u00e9cada": 2020, "G\u00e9nero": "Drama", "Cantidad": 4}, {"D\u00e9cada": 2000, "G\u00e9nero": "Fantas\u00eda", "Cantidad": 1}, {"D\u00e9cada": 2010, "G\u00e9nero": "Fantas\u00eda", "Cantidad": 1}, {"D\u00e9cada": 2000, "G\u00e9nero": "Musical", "Cantidad": 1}, {"D\u00e9cada": 1990, "G\u00e9nero": "Romance", "Cantidad": 2}, {"D\u00e9cada": 1990, "G\u00e9nero": "Thriller", "Cantidad": 1}, {"D\u00e9cada": 2020, "G\u00e9nero": "Thriller", "Cantidad": 1}, {"D\u00e9cada": 1990, "G\u00e9nero": "Western", "Cantidad": 2}, {"D\u00e9cada": 1990, "G\u00e9nero": "\u00c9pico", "Cantidad": 1}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>
