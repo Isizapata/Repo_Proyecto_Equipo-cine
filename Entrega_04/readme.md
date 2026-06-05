@@ -23,9 +23,17 @@ Nuestro trabajo se basa en una tensión entre el prestigio crítico y el éxito 
 En cuanto a la clasificación de géneros, se utilizó como referencia principal Film Affinity, validada con las definiciones de IMDb. 
 
 ## Propuesta grupal
+
 Nuestras visualizaciones ahora sí tienen un hilo conductor: Cuentan una historia para cumplir con nuestra hipótesis. Evidencian una creciente separación entre el prestigio crítico y el éxito comercial.
 
 Para nuestra webstroy queremos seguir este orden:
 1. Cuándo y cómo nace esta separación entre el prestigio y la taquilla con las visualizaciones de Álvaro.
 2. Tendencias en la industria cinematográfica reconocidas por los Óscar a lo largo del tiempo, permitiéndonos analizar cómo evolucionó las preferencias de la Academia al premiar en la categoría de "Mejor Película" y qué característica mantienen estas películas. De esta manera podremos identificar qué tipo de películas son consideradas como prestigiosas con las visualizaciones de la Oli.
 3. Top 20 directores de cine con más películas nominadas o ganadoras del Óscar a "Mejor Película", lo que nos ayuda a definir los cineastas que definen el cine de prestigio durante un determinado tiempo y presenta cuáles son los que lograron mantenerse relevantes dentro del cine presitigioso a pesar de los cambios de la industria. Esto sería con las visualizaciones de la Isi.
+
+## Wireframe (realizado en MIRÓ)
+
+https://miro.com/app/live-embed/uXjVHLRyshA=/?embedMode=view_only_without_ui&moveToViewport=-15211%2C-3270%2C30992%2C14729&embedId=122568666513
+
+### Justificación
+Aquí va la justificación...
