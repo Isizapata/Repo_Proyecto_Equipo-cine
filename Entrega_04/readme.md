@@ -35,5 +35,10 @@ Para nuestra webstroy queremos seguir este orden:
 
 https://miro.com/app/live-embed/uXjVHLRyshA=/?embedMode=view_only_without_ui&moveToViewport=-15211%2C-3270%2C30992%2C14729&embedId=122568666513
 
-### Justificación
-Aquí va la justificación...
+### Justificación del Wireframe
+
+Queremos que la webstory siga una misma línea, pero que no sea toda una estructura en que cada sección tiene el mismo formato. Es por esto que las visualizciones, los iconos de la selecciones y todo lo que sea de animación/decoración no están siempre en el mismo lugar. Queremos combinar una estructura tradicional con un desorden visual que se puede ver en los posters de películas, como una superposición de elementos, pero, en esta caso, que no topen entre sí y que sí haya un juego entre los tamaños y colores.
+
+Cabe destacar que los elementos incluidos son: iconos para separar las secciones, iconos de decoración para seguir con la estética que queremosq que tenga la webstory, las visualizaciones, un bloque con su información para contextualizar de qué tratan y botones que muestren las conclusiones de las visualizaciones de una sección determinada. Estos iconos serían los presentes en el libro de identidad y, por ejemplo, la carta queremos tratar de que tenga el efecto de que se abra y revele "el resultado" como en los premios Óscar. La idea es que los botones y los iconos tengan efectos para crear una experiencia inmersiva al leer nuestra webstory.
+
+Más adelante se verán bien los colores para cada elemento y lo mismo con los tamaños. Por ahora, buscamos que nuestra webstory tenga una forma entrentenida y distinta a la hora de organizar el contenido.
