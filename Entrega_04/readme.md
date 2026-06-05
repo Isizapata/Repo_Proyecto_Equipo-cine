@@ -1,4 +1,4 @@
-### Documentación grupo cine
+# Documentación grupo cine
 ## Manual de Identidad
 Nuestro manual de identidad busca evocar la sensación del cine, queremos que todos los elementos se relacionen directamente con el mundo audivisual. Para esto hemos pensado en la página web como un gran guión, acompañado de un fondo blanco que simula una hoja y la tipografía Courier Prime, igual a la utilizada en los guiones de películas. Usaremos el subrayado y un tamaño más grande para diferenciar los textos de los títulos.
 
