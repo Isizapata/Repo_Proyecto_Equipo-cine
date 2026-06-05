@@ -14,3 +14,12 @@ Los iconos llevan dentro un balde con palomitas sin colores por dentro para mant
 
 Queremos usar las cintas de películas para destacar fotos o contenido relacionado a las películas, los premios o el cine, la idea es que funcione como marco.
 
+## Hipótesis actual:  
+
+Los géneros dramáticos dominan las nominaciones a los Premios Óscar, mientras que los géneros de acción, aventura y fantasía predominan en las películas más taquilleras, evidenciando una brecha entre prestigio crítico y éxito comercial.  
+
+Nuestro trabajo se basa en una tensión entre el prestigio crítico y el éxito comercial. Se busca demostrar la brecha que existe entre ellos a partir de la recolección de datos que reúne películas nominadas y ganadoras de “Mejor Película” entre 1950 y 2026, junto con información sobre su género, subgénero, director, actor principal y recaudación, para así identificar patrones históricos en ambos ámbitos. El análisis se complementa con un listado de las películas más taquilleras por año. 
+
+En cuanto a la clasificación de géneros, se utilizó como referencia principal Film Affinity, validada con las definiciones de IMDb. 
+
+## Propuesta grupal
