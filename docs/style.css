@@ -44,7 +44,7 @@ body {
 
     align-items: center;
 
-    animation: moverPosters 45s linear infinite;
+    animation: moverPosters 35s linear infinite;
 }
 
 .fila-posters img {

@@ -132,6 +132,36 @@ body {
     transform: translateX(-50%) rotate(13deg);
 }
 
+.tira-6 {
+    top: 3800px;
+    left: 50%;
+    transform: translateX(-50%) rotate(-13deg);
+}
+
+.tira-7 {
+    top: 4550px;
+    left: 50%;
+    transform: translateX(-50%) rotate(13deg);
+}
+
+.tira-8 {
+    top: 5300px;
+    left: 50%;
+    transform: translateX(-50%) rotate(-13deg);
+}
+
+.tira-9 {
+    top: 6050px;
+    left: 50%;
+    transform: translateX(-50%) rotate(13deg);
+}
+
+.tira-10 {
+    top: 6800px;
+    left: 50%;
+    transform: translateX(-50%) rotate(-13deg);
+}
+
 .seccion {
     min-height: calc(100vh - 72px);
     padding: 90px 18%;
@@ -563,7 +593,7 @@ h1 em {
 
 .bajada-visualizacion {
     max-width: 800px;
-    margin: 26px auto 45px auto;
+    margin: 26px auto 10px auto;
 
     font-size: 23px;
     line-height: 1.6;
@@ -590,4 +620,17 @@ h1 em {
     display: block;
 
     background-color: #ffffff;
+}
+
+.texto-visualizacion {
+    max-width: 780px;
+    margin: 12px auto 0 auto;
+    margin-top: 5;
+
+    font-size: 16px;
+    line-height: 1.7;
+    font-weight: 400;
+    text-align: justify;
+
+    color: rgb(0, 0, 0);
 }
