@@ -581,6 +581,11 @@ h1 em {
 
     overflow: hidden;
 }
+.video-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
 
 .iframe-visualizacion {
     width: 100%;

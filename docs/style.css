@@ -125,6 +125,7 @@ h2 {
     color: #000000
 }
 
+
 .bajada {
     max-width: 720px;
     text-align: justify;
@@ -133,6 +134,7 @@ h2 {
     margin-bottom: 35px;
     color: #000000
 }
+
 
 .ticket-boton {
     display: inline-block;
@@ -167,6 +169,7 @@ h2 {
     font-size: 20px;
     line-height: 1.7;
 }
+
 
 .footer-portada {
     position: absolute;
