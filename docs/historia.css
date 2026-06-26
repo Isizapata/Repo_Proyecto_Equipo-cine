@@ -12,29 +12,45 @@ body {
 /* Topbar */
 
 .topbar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+
     width: 100%;
     height: 72px;
 
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
 
     padding: 0 32px;
     box-sizing: border-box;
 
     background-color: #ffffff;
-
     box-shadow: 0 3px 12px rgba(0, 0, 0, 0.14);
+}
 
-    position: sticky;
-    top: 0;
-    z-index: 10;
+.titulo-topbar {
+    margin: 0;
+
+    font-size: 18px;
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: 1.8px;
+
+    text-align: center;
+    text-transform: uppercase;
+    white-space: nowrap;
+
+    color: #000000;
 }
 
 .logo-link {
+    position: absolute;
+    left: 32px;
+
     display: flex;
     align-items: center;
-    text-decoration: none;
 }
 
 .logo-topbar {
@@ -105,7 +121,7 @@ body {
 .tira-1 {
     top: 360px;
     left: 50%;
-    transform: translateX(-50%) rotate(13deg);
+    transform: translateX(-50%) rotate(5deg);
 }
 
 .tira-2 {
@@ -117,7 +133,7 @@ body {
 .tira-3 {
     top: 1650px;
     left: 50%;
-    transform: translateX(-50%) rotate(13deg);
+    transform: translateX(-50%) rotate(12deg);
 }
 
 .tira-4 {
@@ -129,7 +145,7 @@ body {
 .tira-5 {
     top: 3100px;
     left: 50%;
-    transform: translateX(-50%) rotate(13deg);
+    transform: translateX(-50%) rotate(9deg);
 }
 
 .tira-6 {
@@ -195,7 +211,7 @@ h1 em {
 
 .bajada-historia {
     max-width: 850px;
-    margin-top: 28px;
+    margin: 28px auto 0 auto;
 
     font-size: 22px;
     line-height: 1.6;
@@ -237,10 +253,12 @@ h1 em {
     position: relative;
     z-index: 3;
 
-    width: min(100%, 1100px);
-    height: 210px;
+    width: 100vw;
+    height: 280px;
 
-    margin: 22px auto 0 auto;
+    margin-top: 22px;
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
 
     overflow: hidden;
 
@@ -253,12 +271,14 @@ h1 em {
     position: absolute;
     inset: 0;
 
+    width: 100vw;
+
     overflow: hidden;
     z-index: 1;
 
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .carrusel-track {
@@ -273,8 +293,8 @@ h1 em {
 }
 
 .carrusel-track img {
-    width: 82px;
-    height: 120px;
+    width: 110px;
+    height: 160px;
 
     object-fit: cover;
 
@@ -287,23 +307,21 @@ h1 em {
 }
 
 .tarjeta-carrusel {
-    position: absolute;
-    left: 50%;
-    top: 50%;
+    position: relative;
+    z-index: 4;
 
-    transform: translate(-50%, -50%);
+    width: 460px;
+    min-height: 150px;
 
-    z-index: 2;
+    padding: 32px 38px;
 
-    width: 520px;
-    max-width: 80%;
-    padding: 22px 34px;
-
-    background-color: #f4ecd8;
+    background-color: rgb(255, 255, 255);
     border: 2px solid #000000;
-    box-shadow: 6px 6px 0 #D4A709;
+    box-shadow: 8px 8px 0 #D4A709;
 
     text-align: center;
+
+    box-sizing: border-box;
 }
 
 .etiqueta-carrusel {
@@ -341,7 +359,7 @@ h1 em {
 }
 
 .carrusel-taquilla {
-    margin-top: 55px;
+    margin-top: 0px;
 }
 
 .carrusel-taquilla .carrusel-track {
@@ -593,7 +611,7 @@ h1 em {
 
 .bajada-visualizacion {
     max-width: 800px;
-    margin: 26px auto 10px auto;
+    margin: 56px auto 10px auto;
 
     font-size: 23px;
     line-height: 1.6;
@@ -624,7 +642,7 @@ h1 em {
 
 .texto-visualizacion {
     max-width: 780px;
-    margin: 12px auto 0 auto;
+    margin: 0px auto 0 auto;
     margin-top: 5;
 
     font-size: 16px;
@@ -633,4 +651,248 @@ h1 em {
     text-align: justify;
 
     color: rgb(0, 0, 0);
+}
+
+.escena-visualizacion-ticket {
+    position: relative;
+
+    width: min(100%, 1280px);
+    margin: 55px auto 0 auto;
+}
+
+.escena-visualizacion-ticket .contenedor-visualizacion {
+    width: min(100%, 980px);
+    margin: 0 auto;
+}
+
+.ticket-info {
+    position: absolute;
+
+    width: 150px;
+
+    padding: 0;
+    border: none;
+    background: transparent;
+
+    cursor: pointer;
+
+    z-index: 5;
+
+    transition:
+        transform 0.25s ease,
+        filter 0.25s ease,
+        opacity 0.25s ease;
+}
+
+.ticket-info img {
+    width: 100%;
+    height: auto;
+    display: block;
+
+    filter: drop-shadow(4px 5px 0 rgba(0, 0, 0, 0.18));
+}
+
+.ticket-info span {
+    position: absolute;
+    left: 50%;
+    bottom: -24px;
+
+    transform: translateX(-50%);
+
+    font-family: "Courier Prime", monospace;
+    font-size: 13px;
+    line-height: 1.1;
+    font-weight: bold;
+    text-align: center;
+
+    color: rgba(0, 0, 0, 0.75);
+
+    white-space: nowrap;
+}
+
+.ticket-info:hover {
+    filter: brightness(1.08);
+}
+
+.ticket-1 {
+    left: -215px;
+    top: 35px;
+    transform: rotate(-8deg);
+}
+
+.ticket-2 {
+    left: -215px;
+    top: 245px;
+    transform: rotate(7deg);
+}
+
+.ticket-3 {
+    left: -215px;
+    bottom: 45px;
+    transform: rotate(-5deg);
+}
+
+.ticket-4 {
+    right: -215px;
+    top: 35px;
+    transform: rotate(8deg);
+}
+
+.ticket-5 {
+    right: -215px;
+    top: 245px;
+    transform: rotate(-7deg);
+}
+
+.ticket-6 {
+    right: -215px;
+    bottom: 45px;
+    transform: rotate(5deg);
+}
+
+.ticket-1:hover,
+.ticket-2:hover,
+.ticket-3:hover,
+.ticket-4:hover,
+.ticket-5:hover,
+.ticket-6:hover {
+    transform: scale(1.06) rotate(0deg);
+}
+
+.modal-ticket[hidden] {
+    display: none;
+}
+
+.modal-ticket {
+    position: fixed;
+    inset: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    z-index: 1000;
+}
+
+.modal-ticket-fondo {
+    position: absolute;
+    inset: 0;
+
+    background-color: rgba(0, 0, 0, 0.45);
+}
+
+.modal-ticket-contenido {
+    position: relative;
+
+    width: min(90vw, 520px);
+
+    padding: 34px 38px;
+
+    background-color: #f4ecd8;
+    border: 2px solid #000000;
+    box-shadow: 8px 8px 0 #D4A709;
+
+    text-align: center;
+
+    animation: aparecerModalTicket 0.25s ease-out;
+}
+
+.modal-ticket-cerrar {
+    position: absolute;
+    top: 12px;
+    right: 16px;
+
+    border: none;
+    background: transparent;
+
+    font-size: 30px;
+    line-height: 1;
+
+    cursor: pointer;
+}
+
+.modal-ticket-etiqueta {
+    margin: 0 0 12px 0;
+
+    font-size: 13px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-weight: bold;
+
+    color: rgba(0, 0, 0, 0.58);
+}
+
+.modal-ticket-contenido h3 {
+    margin: 0 0 16px 0;
+
+    font-size: 32px;
+    line-height: 1.1;
+    text-transform: uppercase;
+}
+
+.modal-ticket-contenido p {
+    margin: 0;
+
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+@keyframes aparecerModalTicket {
+    from {
+        opacity: 0;
+        transform: translateY(18px) scale(0.96);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+.bloque-video-lateral {
+    width: min(100vw, 1400px);
+    margin: 85px 0 0 auto;
+
+    display: grid;
+    grid-template-columns: 180px 1fr;
+    column-gap: 18px;
+
+    align-items: end;
+
+    transform: translateX(-200px);
+}
+
+.leyenda-video-lateral {
+    margin: 0 0 6px 0;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.35;
+    font-weight: 400;
+
+    text-align: right;
+
+    color: rgba(0, 0, 0, 0.88);
+}
+
+.leyenda-video-lateral em {
+    font-style: normal;
+}
+
+.marco-video-lateral {
+    width: 100%;
+
+    background-color: #ffffff;
+    border: 2px solid rgba(0, 0, 0, 0.22);
+
+    overflow: hidden;
+}
+
+.video-webstory {
+    width: 100%;
+    height: auto;
+
+    display: block;
+
+    background-color: #ffffff;
 }

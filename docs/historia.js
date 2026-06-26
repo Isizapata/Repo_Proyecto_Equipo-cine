@@ -43,3 +43,39 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+    const tickets = document.querySelectorAll(".ticket-info");
+
+    const modal = document.getElementById("modalTicket");
+    const tituloModal = document.getElementById("modalTicketTitulo");
+    const textoModal = document.getElementById("modalTicketTexto");
+    const botonCerrar = document.querySelector(".modal-ticket-cerrar");
+    const fondoModal = document.querySelector("[data-cerrar-modal]");
+
+    function abrirModal(ticket) {
+        tituloModal.textContent = ticket.dataset.titulo;
+        textoModal.textContent = ticket.dataset.texto;
+
+        modal.hidden = false;
+    }
+
+    function cerrarModal() {
+        modal.hidden = true;
+    }
+
+    tickets.forEach(function (ticket) {
+        ticket.addEventListener("click", function () {
+            abrirModal(ticket);
+        });
+    });
+
+    botonCerrar.addEventListener("click", cerrarModal);
+    fondoModal.addEventListener("click", cerrarModal);
+
+    document.addEventListener("keydown", function (evento) {
+        if (evento.key === "Escape" && !modal.hidden) {
+            cerrarModal();
+        }
+    });
+});
