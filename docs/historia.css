@@ -263,6 +263,17 @@ h1 em {
     }
 }
 
+.galeria-fotos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap; /* para que en pantallas pequeñas bajen */
+}
+
+.galeria-fotos img {
+    width: 250px;
+    height: auto;
+}
 .texto-caminos {
     max-width: 700px;
     margin-top: 25px;
@@ -873,7 +884,7 @@ h1 em {
 }
 
 .bloque-video-lateral {
-    width: min(100vw, 1400px);
+    width: min(100vw, 1200px);
     margin: 85px 0 0 auto;
 
     display: grid;
