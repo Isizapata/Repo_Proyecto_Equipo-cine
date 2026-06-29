@@ -53,6 +53,10 @@ document.addEventListener("DOMContentLoaded", function () {
     const botonCerrar = document.querySelector(".modal-ticket-cerrar");
     const fondoModal = document.querySelector("[data-cerrar-modal]");
 
+    if (!modal || !tituloModal || !textoModal || !botonCerrar || !fondoModal) {
+        return;
+    }
+
     function abrirModal(ticket) {
         tituloModal.textContent = ticket.dataset.titulo;
         textoModal.textContent = ticket.dataset.texto;
@@ -76,6 +80,112 @@ document.addEventListener("DOMContentLoaded", function () {
     document.addEventListener("keydown", function (evento) {
         if (evento.key === "Escape" && !modal.hidden) {
             cerrarModal();
+        }
+    });
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+    const bloqueImpacto = document.getElementById("bloqueImpactoOscar");
+    const numeroImpacto = document.getElementById("numeroImpactoOscar");
+    const subrayadoImpacto = document.getElementById("subrayadoImpactoOscar");
+
+    if (!bloqueImpacto || !numeroImpacto) {
+        return;
+    }
+
+    let animacionEjecutada = false;
+
+    function generarNumeroTresCifras() {
+        return Math.floor(Math.random() * 900) + 100;
+    }
+
+    function generarNumeroDosCifras() {
+        return Math.floor(Math.random() * 90) + 10;
+    }
+
+    function animarNumeroImpacto() {
+        const duracionTotal = 2400;
+        const inicio = performance.now();
+
+        numeroImpacto.classList.add("animando");
+
+        if (subrayadoImpacto) {
+            subrayadoImpacto.classList.remove("subrayado-activo");
+        }
+
+        function actualizar(tiempoActual) {
+            const progreso = Math.min((tiempoActual - inicio) / duracionTotal, 1);
+
+            if (progreso < 0.55) {
+                numeroImpacto.textContent = generarNumeroTresCifras();
+            } else if (progreso < 0.9) {
+                numeroImpacto.textContent = generarNumeroDosCifras();
+            } else {
+                numeroImpacto.textContent = "44";
+            }
+
+            if (progreso < 1) {
+                requestAnimationFrame(actualizar);
+            } else {
+                numeroImpacto.textContent = "44";
+
+                numeroImpacto.classList.remove("animando");
+                numeroImpacto.classList.remove("animacion-terminada");
+
+                /*
+                Esta línea fuerza al navegador a reiniciar
+                la animación del golpe final.
+                */
+                void numeroImpacto.offsetWidth;
+
+                numeroImpacto.classList.add("animacion-terminada");
+
+                /*
+                El subrayado aparece después de que el 44
+                hace su golpe final.
+                */
+                if (subrayadoImpacto) {
+                    setTimeout(function () {
+                        subrayadoImpacto.classList.add("subrayado-activo");
+                    }, 550);
+                }
+            }
+        }
+
+        requestAnimationFrame(actualizar);
+    }
+
+    const observador = new IntersectionObserver(function (entradas) {
+        entradas.forEach(function (entrada) {
+            if (entrada.isIntersecting && !animacionEjecutada) {
+                animacionEjecutada = true;
+                animarNumeroImpacto();
+                observador.unobserve(bloqueImpacto);
+            }
+        });
+    }, {
+        threshold: 0.55
+    });
+
+    observador.observe(bloqueImpacto);
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+    const comparador = document.getElementById("comparadorProductoras");
+    const boton = document.getElementById("botonComparaProductoras");
+    const etiqueta = document.getElementById("etiquetaComparadorProductoras");
+
+    if (!comparador || !boton || !etiqueta) {
+        return;
+    }
+
+    boton.addEventListener("click", function () {
+        const mostrandoTaquilla = comparador.classList.toggle("mostrando-taquilla");
+
+        if (mostrandoTaquilla) {
+            etiqueta.textContent = "Taquilla";
+        } else {
+            etiqueta.textContent = "Premios Oscar";
         }
     });
 });

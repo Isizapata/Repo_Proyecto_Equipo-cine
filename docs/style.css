@@ -48,7 +48,7 @@ body {
 }
 
 .fila-posters img {
-    height: 82vh;
+    height: 110vh;
     width: auto;
 
     opacity: 0.22;
@@ -59,7 +59,7 @@ body {
     position: relative;
     z-index: 2;
 
-    max-width: 900px;
+    max-width: 1600px;
     padding: 40px;
 
     color: #ffffff;
@@ -84,7 +84,7 @@ body {
     margin-top: -50px;
 }
 .categoria {
-    max-width: 720px;
+    max-width: 1600px;
     text-align: center;
     font-size: 20px;
     line-height: 1.6;
@@ -93,10 +93,10 @@ body {
 }
 
 h1 {
-    max-width: 900px;
+    max-width: 1600px;
     margin: 0;
-    font-size: 54px;
-    line-height: 1.1;
+    font-size: 90px;
+    line-height: 1;
     letter-spacing: 1px;
     color: #000000;
     text-transform: uppercase;
@@ -127,31 +127,60 @@ h2 {
 
 
 .bajada {
-    max-width: 720px;
-    text-align: justify;
+    max-width: 1200px;
+    text-align: center;
     font-size: 1.3rem;
     line-height: 1.6;
+    margin-top: 45px;
     margin-bottom: 35px;
     color: #000000
 }
 
 
-.ticket-boton {
-    display: inline-block;
-    margin-top: -15px;
-    padding: 18px 42px;
-    background-color: #eae2c9;
-    color: #000000;
-    border: 2px solid #000000;
-    text-decoration: none;
-    font-weight: bold;
+.ticket-boton-index {
+    display: inline-grid;
+    place-items: center;
+
+    width: 200px;
+    height: 100px;
+
+    background-image: url("imagenes/recursos/ticket-boton-dorado.png");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center center;
+
+    border: none;
+    background-color: transparent;
+
+    font-family: "Courier Prime", monospace;
     font-size: 20px;
-    border-radius: 8px;
+    line-height: 1.1;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+
+    color: #000000;
+
+    cursor: pointer;
+
+    transition:
+        transform 0.25s ease,
+        filter 0.25s ease;
 }
 
-.ticket-boton:hover {
-    background-color: #C80000;
-    color: #FFFFFF;
+.ticket-boton-index span {
+    position: relative;
+    z-index: 2;
+
+    display: block;
+    max-width: 260px;
+}
+
+.ticket-boton-index:hover {
+    transform: scale(1.04) rotate(-1deg);
+    filter: brightness(1.08);
 }
 
 .seccion-intro {
