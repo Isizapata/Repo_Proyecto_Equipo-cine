@@ -55,12 +55,16 @@
         sentarse en primera fila
     </h1>
 
+    <div class="bloque-video-inicio">
+        <video class="video-inicio-grande" controls>
+            <source src="videos/escena-inical-forrest-gump.mp4" type="video/mp4">
+            Tu navegador no soporta la reproducción de video.
+        </video>
+    </div>
+
     <div class="bloque-caso-forrest">
 
         <div class="texto-caso-forrest">
-            <p class="etiqueta-caso">Hubo una vez...</p>
-
-            <h2>Una pluma, una banca y un Oscar</h2>
 
             <p>
                 Una pluma volando sobre Savannah, Georgia, y cayendo a los pies
@@ -74,6 +78,7 @@
                 no era extraño: el éxito comercial y el prestigio todavía podían
                 compartir escenario.
             </p>
+
         </div>
 
         <div class="afiche-caso-forrest">
@@ -152,7 +157,7 @@
 
         <div class="contenedor-heatmap-brecha">
             <iframe
-                src="visualizaciones/timeline_heatmap_sin_barra.html"
+                src="visualizaciones/timeline_heatmap_grande_sin_barra.html"
                 title="Heatmap sobre coincidencias entre taquilla y premios Oscar"
                 class="iframe-heatmap-brecha">
             </iframe>
@@ -172,14 +177,82 @@
             <span>Después, la relación comenzó a quebrarse.</span>
         </p>
 
-        </div>
+        </section>
+
+        <section class="seccion seccion-grieta">
+
+            <h1 class="titulo-grieta">
+                LA GRIETA
+            </h1>
+
+            <p class="texto-quiebre-relacion">
+                Entre 1981 y 2003, casi todos los años tuvieron al menos una película
+                taquillera nominada o ganadora a Mejor Película.
+                Después de 2003, esa continuidad se volvió frágil.
+            </p>
+
+            <figure class="bloque-visualizacion-grieta">
+                <img
+                    src="imagenes/recursos/visualizacion-grieta-taquilla-oscar.png"
+                    alt="Visualización sobre la ruptura entre taquilla y premios Oscar a partir de 2004"
+                    class="imagen-visualizacion-grieta">
+            </figure>
 
         </section>
 
         <section>
             <h1>
-                LA GRIETA
+                Dos caminos para triunfar
             </h1>
+
+            <p class="texto-creemos">
+                Todos creemos saber qué es una película exitosa. Pero en Hollywood,
+                <span class="destacado-texto">el éxito puede significar cosas distintas</span>: vender millones de entradas,
+                ganar el Óscar, convertirse en franquicia, sobrevivir en la memoria o volver
+                una y otra vez al circuito de premios.
+            </p>
+
+            <div class="sobres-definicion">
+
+                <div class="sobre-card" data-sobre="taquilla">
+
+                    <div class="carta-sobre">
+                        <h3>Taquilla</h3>
+
+                        <p>
+                            Consideramos como camino comercial las películas que destacaron por su recaudación entre 1977 y 2025.
+                        </p>
+                    </div>
+
+                    <button class="boton-sobre" type="button" aria-label="Abrir explicación de taquilla">
+                        <img src="imagenes/recursos/sobretaquilla.png" alt="">
+                    </button>
+
+                </div>
+
+                <p class="texto-presiona">
+                    <span>Presiona</span>
+                    <span>y conocerás</span>
+                </p>
+
+                <div class="sobre-card" data-sobre="premios">
+
+                    <div class="carta-sobre">
+                        <h3>Premios Oscar</h3>
+
+                        <p>
+                            Consideramos como camino del prestigio las películas nominadas o ganadoras en la categoría Mejor Película.
+                        </p>
+                    </div>
+
+                    <button class="boton-sobre" type="button" aria-label="Abrir explicación de Premios Oscar">
+                        <img src="imagenes/recursos/sobreprestigio.png" alt="">
+                    </button>
+
+                </div>
+
+            </div>
+
         </section>
 
             <div class="carrusel-bloque">
@@ -289,64 +362,12 @@
 
             </div>
 
-            <p class="texto-creemos">
-                Todos creemos saber qué es una película exitosa. Pero en Hollywood,
-                <span class="destacado-texto">el éxito puede significar cosas distintas</span>: vender millones de entradas,
-                ganar el Óscar, convertirse en franquicia, sobrevivir en la memoria o volver
-                una y otra vez al circuito de premios.
-            </p>
-
-            <p class="texto-indicadores">
-                Antes de comparar ambos caminos, necesitamos definir qué estamos midiendo.
-            </p>
-
-            <div class="sobres-definicion">
-
-                <div class="sobre-card" data-sobre="taquilla">
-
-                    <div class="carta-sobre">
-                        <h3>Taquilla</h3>
-
-                        <p>
-                            Consideramos como camino comercial las películas que destacaron por su recaudación entre 1977 y 2025.
-                        </p>
-                    </div>
-
-                    <button class="boton-sobre" type="button" aria-label="Abrir explicación de taquilla">
-                        <img src="imagenes/recursos/sobretaquilla.png" alt="">
-                    </button>
-
-                </div>
-
-                <p class="texto-presiona">
-                    <span>Presiona</span>
-                    <span>y conocerás</span>
-                </p>
-
-                <div class="sobre-card" data-sobre="premios">
-
-                    <div class="carta-sobre">
-                        <h3>Premios Oscar</h3>
-
-                        <p>
-                            Consideramos como camino del prestigio las películas nominadas o ganadoras en la categoría Mejor Película.
-                        </p>
-                    </div>
-
-                    <button class="boton-sobre" type="button" aria-label="Abrir explicación de Premios Oscar">
-                        <img src="imagenes/recursos/sobreprestigio.png" alt="">
-                    </button>
-
-                </div>
-
-            </div>
-
         </section>
 
         <section class="seccion seccion-taquilla">
 
-            <h1>
-                El éxito que <em>llena</em> salas
+            <h1 class="titulo-exito-salas">
+                El éxito que llena salas
             </h1>
 
             <p class="bajada-historia">
