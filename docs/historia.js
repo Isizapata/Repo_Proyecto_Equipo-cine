@@ -121,13 +121,13 @@ document.addEventListener("DOMContentLoaded", function () {
             } else if (progreso < 0.9) {
                 numeroImpacto.textContent = generarNumeroDosCifras();
             } else {
-                numeroImpacto.textContent = "13";
+                numeroImpacto.textContent = "3";
             }
 
             if (progreso < 1) {
                 requestAnimationFrame(actualizar);
             } else {
-                numeroImpacto.textContent = "13";
+                numeroImpacto.textContent = "3";
 
                 numeroImpacto.classList.remove("animando");
                 numeroImpacto.classList.remove("animacion-terminada");
