@@ -136,7 +136,7 @@ body {
 .tira-1 {
     top: 350px;
     left: 50%;
-    transform: translateX(-50%) rotate(7deg);
+    transform: translateX(-50%) rotate(13deg);
 }
 
 .tira-2 {
@@ -146,79 +146,37 @@ body {
 }
 
 .tira-3 {
-    top: 1300px;
+    top: 1510px;
     left: 50%;
-    transform: translateX(-50%) rotate(10deg);
+    transform: translateX(-50%) rotate(5deg);
 }
 
 .tira-4 {
-    top: 2150px;
+    top: 2550px;
     left: 50%;
     transform: translateX(-50%) rotate(-13deg);
 }
 
 .tira-5 {
-    top: 3100px;
+    top: 3770px;
     left: 50%;
-    transform: translateX(-50%) rotate(9deg);
+    transform: translateX(-50%) rotate(7deg);
 }
 
 .tira-6 {
-    top: 3700px;
+    top: 5100px;
     left: 50%;
     transform: translateX(-50%) rotate(-6deg);
 }
 
 .tira-7 {
-    top: 4550px;
+    top: 5800px;
     left: 50%;
     transform: translateX(-50%) rotate(13deg);
 }
 
 .tira-8 {
-    top: 5300px;
-    left: 50%;
-    transform: translateX(-50%) rotate(-13deg);
-}
-
-.tira-9 {
-    top: 6050px;
-    left: 50%;
-    transform: translateX(-50%) rotate(13deg);
-}
-
-.tira-11 {
-    top: 7000px;
-    left: 50%;
-    transform: translateX(-50%) rotate(13deg);
-}
-
-.tira-12 {
-    top: 7650px;
-    left: 50%;
-    transform: translateX(-50%) rotate(-13deg);
-}
-
-.tira-13 {
-    top: 8300px;
-    left: 50%;
-    transform: translateX(-50%) rotate(13deg);
-}
-
-.tira-14 {
-    top: 8950px;
-    left: 50%;
-    transform: translateX(-50%) rotate(-13deg);
-}
-
-.tira-15 {
-    top: 9600px;
-    left: 50%;
-    transform: translateX(-50%) rotate(13deg);
-}
-
-.tira-16 {
-    top: 10250px;
+    top: 6850px;
     left: 50%;
     transform: translateX(-50%) rotate(-13deg);
 }
@@ -274,7 +232,7 @@ body {
     column-gap: 140px;
 }
 
-.caso-silencio {
+.caso-poetas {
     grid-template-columns: 360px 680px;
     column-gap: 140px;
 }
@@ -329,11 +287,11 @@ body {
     box-shadow: 8px 8px 0 #D4A709;
 }
 
-.afiche-silencio {
+.afiche-poetas {
     justify-self: start;
 }
 
-.afiche-silencio img {
+.afiche-poetas img {
     box-shadow: -8px 8px 0 #D4A709;
 }
 
@@ -383,7 +341,7 @@ body {
     transform: rotate(3deg);
 }
 
-.tarjeta-silencio {
+.tarjeta-poetas {
     left: -22px;
     bottom: 26px;
 
@@ -396,22 +354,9 @@ body {
     text-align: left;
 }
 
-.caso-silencio .texto-caso-introduccion,
-.caso-silencio .texto-caso-introduccion p {
+.caso-poetas .texto-caso-introduccion,
+.caso-poetas .texto-caso-introduccion p {
     text-align: right;
-}
-
-.casos-excepcionales {
-    max-width: 1120px;
-    margin: 0 auto;
-
-    font-size: 32px;
-    line-height: 1.32;
-    font-weight: 400;
-
-    text-align: center;
-
-    color: #000000;
 }
 
 .titulo-parrilla-pre2004 {
@@ -433,13 +378,14 @@ body {
     width: min(100%, 920px);
     margin: 0 auto 0 auto;
 
-    display: grid;
-    grid-template-columns: repeat(7, 1fr);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 12px;
 }
 
 .poster-pre2004 {
-    width: 100%;
+    width: 120px;
     aspect-ratio: 2 / 3;
 
     object-fit: cover;
@@ -451,8 +397,6 @@ body {
     cursor: pointer;
 
     transition:
-        opacity 0.28s ease,
-        filter 0.28s ease,
         transform 0.28s ease,
         box-shadow 0.28s ease,
         border-color 0.28s ease;
@@ -486,16 +430,6 @@ h1 em {
     font-style: italic;
 }
 
-.bajada-historia {
-    max-width: 850px;
-    margin: 28px auto 0 auto;
-
-    font-size: 22px;
-    line-height: 1.6;
-
-    text-align: center;
-}
-
 .subrayado-amarillo {
     background-image: linear-gradient(#ddff00, #ffc800);
     background-repeat: no-repeat;
@@ -527,22 +461,9 @@ h1 em {
 .galeria-fotos img {
     width: 250px;
     height: auto;
-    border-color: 4px #000000;
+
+    border: 2px solid #000000;
     box-shadow: 8px 8px 0 #D4A709;
-}
-
-.texto-pero-entonces {
-    margin-top: 100px;
-}
-
-.texto-caminos {
-    max-width: 700px;
-    margin-top: 25px;
-
-    font-size: 18px;
-    line-height: 1.5;
-
-    text-align: center;
 }
 
 .carrusel-bloque {
@@ -1145,11 +1066,11 @@ h1 em {
 }
 
 .bloque-video-lateral {
-    width: min(100vw, 1200px);
+    width: min(100vw, 1400px);
     margin: 85px 0 0 auto;
 
     display: grid;
-    grid-template-columns: 180px 1fr;
+    grid-template-columns: 180px minmax(0, 1fr);
     column-gap: 18px;
 
     align-items: end;
@@ -1198,6 +1119,7 @@ h1 em {
     font-size: 46px;
     line-height: 1;
     font-weight: 700;
+    font-style: italic;
 
     text-align: center;
     text-transform: uppercase;
@@ -1285,164 +1207,8 @@ h1 em {
     align-items: center;
 }
 
-.pregunta-buena-pelicula {
-    max-width: 980px;
-    margin: 110px auto 12px auto;
-
-    font-size: 42px;
-    line-height: 1.15;
-    font-weight: 700;
-
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-
-    color: #000000;
-}
-
-.exito-dos-caminos {
-    max-width: 750px;
-    margin-top: 8px;
-
-    font-size: 21px;
-    line-height: 1.7;
-
-    text-align: center;
-}
-
-.carrusel-peliculas-puente {
-    height: 430px;
-    margin-top: 75px;
-    margin-bottom: 25px;
-}
-
-.carrusel-peliculas-puente .carrusel-track {
-    align-items: flex-start;
-    gap: 40px;
-    animation: moverCarruselOscar 60s linear infinite;
-}
-
-.poster-puente {
-    width: 210px;
-    flex-shrink: 0;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    text-align: center;
-}
-
-.poster-puente img {
-    width: 210px;
-    height: 310px;
-
-    object-fit: cover;
-    display: block;
-
-    border: 2px solid #000000;
-
-    opacity: 1;
-    filter: none;
-    border-radius: 0;
-}
-
-.poster-puente p {
-    width: 100%;
-    height: 100px;
-
-    margin: 18px 0 0 0;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-
-    font-size: 16px;
-    line-height: 1.2;
-    text-align: center;
-
-    color: #000000;
-}
-
-.poster-puente strong {
-    height: 44px;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    font-size: 17px;
-    line-height: 1.15;
-    font-weight: 700;
-}
-
-.poster-puente span {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-
-    margin-top: 10px;
-    padding: 6px 11px;
-
-    background-color: #f4ecd8;
-    border: 1.5px solid #000000;
-
-    font-size: 13px;
-    line-height: 1;
-    font-weight: 700;
-    text-transform: uppercase;
-
-    color: #000000;
-}
-
-.durante-varias-decadas {
-    max-width: 1400px;
-    margin-top: 10px;
-    margin-bottom: 12px;
-
-    font-size: 30px;
-    line-height: 1.35;
-    font-weight: 700;
-
-    text-align: center;
-
-    color: #000000;
-}
-
-.durante-varias-decadas span {
-    background-image: linear-gradient(
-        transparent 58%,
-        rgb(229, 232, 5) 58%
-    );
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-position: left bottom;
-}
-
-.bloque-heatmap-brecha {
-    width: 120%;
-    margin: 30px auto 90px auto;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.bajada-heatmap-brecha {
-    width: 900px;
-    margin: 35px auto 18px auto;
-
-    font-size: 23px;
-    line-height: 1.6;
-    font-weight: bold;
-    text-align: center;
-
-    color: #000000;
-}
-
 .contenedor-heatmap-brecha {
-    width: min(96vw, 1300px);
+    width: min(100%, 1100px);
     margin: 0 auto;
 
     background-color: #ffffff;
@@ -1454,43 +1220,12 @@ h1 em {
 
 .iframe-heatmap-brecha {
     width: 100%;
-    height: 575px;
+    height: 495px;
 
     border: none;
     display: block;
 
     background-color: #ffffff;
-}
-
-.texto-heatmap-brecha {
-    max-width: 1250px;
-    margin-top: 30px;
-
-    font-size: 19px;
-    line-height: 1.7;
-    font-weight: 400;
-    text-align: center;
-
-    color: #000000;
-}
-
-.texto-quiebre-relacion {
-    max-width: 1250px;
-    margin: 55px auto 0 auto;
-
-    font-size: 21px;
-    line-height: 1.7;
-
-    text-align: center;
-
-    color: #000000;
-}
-
-.texto-quiebre-relacion span {
-    display: block;
-    margin-top: 12px;
-
-    font-weight: 700;
 }
 
 .titulo-exito-salas {
@@ -1506,34 +1241,135 @@ h1 em {
     color: #000000;
 }
 
-.seccion-grieta {
-    padding-top: 0px;
-    padding-bottom: 120px;
-    padding-left: 6%;
-    padding-right: 6%;
-    margin-top: 30px;
+.cierre-parrilla-pre2004 {
+    max-width: 850px;
+    margin: 34px auto 0 auto;
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+    font-size: 22px;
+    line-height: 1.6;
+    font-weight: 400;
+    font-style: normal;
 
-.titulo-grieta {
-    max-width: 1000px;
-    margin: 0 auto;
-
-    font-size: 58px;
-    line-height: 1.08;
-    letter-spacing: 1px;
-    text-transform: uppercase;
     text-align: center;
 
     color: #000000;
 }
 
-.bloque-visualizacion-grieta {
-    width: min(94vw, 1250px);
-    margin: 55px auto 0 auto;
+.tarjeta-poster-ganador {
+    position: relative;
+}
+
+.etiqueta-oscar-ganador {
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+
+    padding: 7px 9px;
+
+    background-color: rgba(244, 236, 216, 0.94);
+    border: 1.5px solid #000000;
+    box-shadow: 3px 3px 0 #D4A709;
+
+    text-align: left;
+
+    z-index: 4;
+}
+
+.etiqueta-oscar-ganador span {
+    display: block;
+
+    margin-bottom: 2px;
+
+    font-size: 10px;
+    line-height: 1;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+
+    color: rgba(0, 0, 0, 0.65);
+}
+
+.etiqueta-oscar-ganador strong {
+    display: block;
+
+    font-size: 13px;
+    line-height: 1;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+
+.pregunta-heatmap-brecha {
+    max-width: 1050px;
+    margin: 90px auto 14px auto;
+
+    font-size: 34px;
+    line-height: 1.25;
+    font-weight: 700;
+
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+
+    color: #000000;
+}
+
+.bajada-explicativa-heatmap {
+    max-width: 780px;
+    margin: 0 auto 38px auto;
+
+    font-size: 19px;
+    line-height: 1.6;
+    font-weight: 400;
+
+    text-align: center;
+
+    color: rgb(0, 0, 0);
+}
+
+.texto-transicion-heatmap {
+    max-width: 850px;
+    margin: 48px auto 0 auto;
+
+    font-size: 21px;
+    line-height: 1.7;
+    font-weight: 400;
+
+    text-align: center;
+
+    color: #000000;
+}
+
+.texto-despues-heatmap {
+    max-width: 900px;
+    margin: 46px auto 70px auto;
+
+    font-size: 21px;
+    line-height: 1.7;
+    font-weight: 400;
+
+    text-align: center;
+
+    color: #000000;
+}
+
+.bajada-grieta-etapas {
+    max-width: 860px;
+    margin: 20px auto 20px auto;
+
+    font-size: 20px;
+    line-height: 1.6;
+    font-weight: 400;
+
+    text-align: center;
+
+    color: rgb(0, 0, 0);
+}
+
+.bloque-visualizacion-etapas {
+    width: min(100%, 1100px);
+    margin: 0 auto;
 
     background-color: #ffffff;
     border: 2px solid #D4A709;
@@ -1542,11 +1378,161 @@ h1 em {
     overflow: hidden;
 }
 
-.imagen-visualizacion-grieta {
+.imagen-visualizacion-etapas {
     width: 100%;
     height: auto;
 
     display: block;
 
     background-color: #ffffff;
+}
+
+.cierre-grieta-etapas {
+    max-width: 850px;
+    margin: 42px auto 0 auto;
+
+    font-size: 22px;
+    line-height: 1.6;
+    font-weight: 400;
+
+    text-align: center;
+
+    color: #000000;
+}
+
+.titulo-acto {
+    max-width: 1100px;
+    margin: 0 auto 24px auto;
+
+    font-size: 72px;
+    line-height: 0.95;
+    font-weight: 700;
+
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+    color: #000000;
+}
+
+.titulo-acto::after {
+    content: "";
+    display: block;
+
+    width: 110px;
+    height: 8px;
+
+    margin: 22px auto 0 auto;
+
+    background-color: #D4A709;
+}
+
+.subtitulo-bloque {
+    max-width: 900px;
+    margin: 15px auto 18px auto;
+
+    font-size: 30px;
+    line-height: 1.25;
+    font-weight: 700;
+
+    text-align: center;
+    text-transform: none;
+    letter-spacing: 0;
+
+    color: #000000;
+}
+
+.subtitulo-bloque::before {
+    content: "";
+    display: block;
+
+    width: 54px;
+    height: 4px;
+
+    margin: 0 auto 18px auto;
+
+    background-color: #D4A709;
+}
+
+.puente-dos-caminos {
+    max-width: 850px;
+    margin: 70px auto 90px auto;
+
+    font-size: 22px;
+    line-height: 1.65;
+    font-weight: 400;
+
+    text-align: center;
+
+    color: #000000;
+}
+
+.titulo-dos-caminos {
+    max-width: 1050px;
+    margin: 0 auto 24px auto;
+
+    font-size: 58px;
+    line-height: 1.08;
+    font-weight: 700;
+
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+    color: #000000;
+}
+
+.titulo-dos-caminos::after {
+    content: "";
+    display: block;
+
+    width: 90px;
+    height: 6px;
+
+    margin: 20px auto 0 auto;
+
+    background-color: #D4A709;
+}
+
+.bajada-dos-caminos {
+    max-width: 820px;
+    margin: 0 auto 42px auto;
+
+    font-size: 20px;
+    line-height: 1.65;
+    font-weight: 400;
+
+    text-align: center;
+
+    color: rgb(0, 0, 0);
+}
+
+.bajada-historia {
+    max-width: 850px;
+    margin: 28px auto 0 auto;
+
+    font-size: 22px;
+    line-height: 1.6;
+
+    text-align: center;
+}
+
+.subrayado-amarillo {
+    background-image: linear-gradient(#ddff00, #ffc800);
+    background-repeat: no-repeat;
+    background-size: 0% 35%;
+    background-position: 0 88%;
+
+    animation: subrayarAmarillo 1.2s ease-out forwards;
+    animation-delay: 0.8s;
+}
+
+@keyframes subrayarAmarillo {
+    from {
+        background-size: 0% 75%;
+    }
+
+    to {
+        background-size: 100% 75%;
+    }
 }
