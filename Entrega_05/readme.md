@@ -2,7 +2,7 @@
 
 ## Titular del reportaje: Cuando la taquilla dejó de ir a los Óscars 
 
-**Resumen:** 
+### Resumen:
 
 Al recolectar datos y analizarlos, nos dimos cuenta de que existió un fenómeno que se fue extinguiendo: el éxito comercial y el prestigio de las películas compartían un mismo camino. Con el paso de los años, se volvió cada vez más común, ampliando una brecha entre ambos éxitos. La definición de lo que es una gran película comenzó a tener dos opciones a fines del siglo XX y a principios de los años 2000. 
 
@@ -11,7 +11,7 @@ Durante las últimas cinco décadas, el significado del éxito cambió y nuestra
 A través de visualizaciones interactivas, ejemplos de películas y elementos icónicos de la industria del cine, el viaje del usuario por nuestra webstory invita al usuario a sumergirse en ella y descubrir cuándo apareció esta brecha y qué lo prueba. Entre esta información, también logrará reconocer qué características distinguen hoy a las películas que la rompen en la taquilla y las que logran el prestigio de llevarse un Óscar. Más allá de comparar rankings o cifras, nuestra investigación busca explicar cómo evolucionaron los criterios con los que la industria y el público entienden lo que significa una película exitosa. 
 
 
-**Evolución de la hipótesis:**
+### Evolución de la hipótesis:
 
 Nuestra hipótesis fue cambiando con las entregas. Inicialmente, queríamos demostrar que los géneros dramáticos dominan las nominaciones a los Premios Óscar, mientras que los géneros de acción y aventura predominan como las películas más taquilleras. Era una idea que nos resultaba un poco obvia y por esa misma razón nos intrigaba ver lo que podíamos hallar en la recolección y análisis de datos.  
 
