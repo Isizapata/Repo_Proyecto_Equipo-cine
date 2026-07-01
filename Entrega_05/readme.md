@@ -4,7 +4,7 @@
 
 ### Resumen:
 
-Al recolectar datos y analizarlos, nos dimos cuenta de que existió un fenómeno que se fue extinguiendo: el éxito comercial y el prestigio de las películas compartían un mismo camino. Con el paso de los años, se volvió cada vez más común, ampliando una brecha entre ambos éxitos. La definición de lo que es una gran película comenzó a tener dos opciones a fines del siglo XX y a principios de los años 2000. 
+Al recolectar datos y analizarlos, nos dimos cuenta de que existió un fenómeno que se fue extinguiendo: el éxito comercial y el prestigio de las películas compartían un mismo camino. Con el paso de los años, se volvió cada vez más común, ampliando una brecha entre ambos éxitos. La definición de lo que es una gran película comenzó a tener dos opciones a fines del siglo XX y a principios del siglo XXI. 
 
 Durante las últimas cinco décadas, el significado del éxito cambió y nuestra webstory explora cómo. El cruce explicado anteriormente era relativamente frecuente. Sin embargo, se quebró con el tiempo, lo que implica una transformación histórica. 
 
