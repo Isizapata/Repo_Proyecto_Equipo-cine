@@ -1,6 +1,6 @@
 # Documentación
 
-### **Titular del reportaje:** Cuando la taquilla dejó de ir a los Óscars 
+## Titular del reportaje: Cuando la taquilla dejó de ir a los Óscars 
 
 **Resumen:** 
 
