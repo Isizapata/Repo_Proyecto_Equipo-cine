@@ -18,3 +18,12 @@ Nuestra hipótesis fue cambiando con las entregas. Inicialmente, queríamos demo
 La brecha entre el prestigio crítico y el éxito comercial dentro de la industria cinematográfica es algo que sí ha estado presente en nuestras conversaciones. Álvaro fue muy meticuloso y nos sorprendió cuando se dio cuenta del fenómeno de la coincidencia histórica que sí existía entre la estatuilla y la taquilla en el cine. Es ahí que nuestra hipótesis tomó una nueva dirección y se convirtió en lo que les presentamos hoy en nuestra webstory. 
 
 Por lo tanto, nuestra hipótesis inicial se logró demostrar, pero, además, nos condujo a otra hipótesis también se comprobó cierta.  
+
+### Tabla de autoría
+
+| ELEMENTOS  | Álvaro Jopia | Isidora Zapata | Olivia López |
+| ------------- |:-------------:|:-------------:|:-------------:|
+| Visualizaciones | X | X | |
+| Documentación |  | X | X |
+| Contenido webstory (Crónicas y textos) | X | X | X | 
+| Recursos y elementos visuales | X | X | X |
