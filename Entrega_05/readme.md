@@ -23,7 +23,11 @@ Por lo tanto, nuestra hipótesis inicial se logró demostrar, pero, además, nos
 
 | ELEMENTOS  | Álvaro Jopia | Isidora Zapata | Olivia López |
 | ------------- |:-------------:|:-------------:|:-------------:|
-| Visualizaciones | X | X | |
+| Visualización 1 | | X | |
+| Visualización 2 | X | X | |
+| Visualización 3 | X | | |
+| Visualización 4 | | X | X |
 | Documentación |  | X | X |
 | Contenido webstory (Crónicas y textos) | X | X | X | 
 | Recursos y elementos visuales | X | X | X |
+| Diseño página web | X | | |
