@@ -33,3 +33,7 @@ Empezando por la tipografía, es la misma utilizada en los guiones. Jugamos un p
 Cada sección, además, cumple con la presencia de dichos elementos; los botones, los tickets, los sobres, la estatuilla, las cabritas, etc. De esta manera, también se mantiene la atención del usuario. Cabe destacar que nuestro logo, para que personalizar nuestra webstory, está incluido tanto en la página principal como en otros elementos/secciones. 
 
 La inclusión de videos y tráileres apoyan la narratividad, pero, al mismo tiempo, sumergen aún más al usuario que se quede intrigado con conocer más. Sentimos que era típico cuando a uno le dicen el nombre de una película y les suena, pero no pueden identificarla hasta ver algo de ella. Es por esto mismo que lo visual era muy importante de añadir. 
+
+## Recursos
+
+Los recursos utilizados y la estética elegida se explica en nuestro libro de identidad.
